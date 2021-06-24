@@ -1,0 +1,190 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T14:24:31.465Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3336848300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.practise.steps.Steps.seetup() in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login succeful",
+        "description": "",
+        "id": "login-functionality;login-succeful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 683050300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.practise.steps.Steps.quitbrowser() in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7596576500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i am in the login page of the para bank Application",
+            "match": {
+              "location": "com.practise.steps.Steps.i_am_in_the_login_page_of_the_para_bank_Application() in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2912682700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter a valid \"mahmoudtest\" and \"123123\" with \"test yyyy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mahmoudtest\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"123123\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"test yyyy\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.practise.steps.Steps.i_enter_a_valid_cridential(String,String,String) in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1597725400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.practise.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": " \t\t\tIn order to do Internet banking\n \t\t\tAs a para bank customer \n \t\t\tI want to Login successfully ",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T14:24:31.465Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3336848300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.practise.steps.Steps.seetup() in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login succeful",
+        "description": "",
+        "id": "login-functionality;login-succeful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 688603400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.practise.steps.Steps.quitbrowser() in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7798199900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i am in the login page of the para bank Application",
+            "match": {
+              "location": "com.practise.steps.Steps.i_am_in_the_login_page_of_the_para_bank_Application() in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2782093300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter a valid \"mahmoudtest\" and \"123123\" with \"test yyyy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mahmoudtest\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"123123\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"test yyyy\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.practise.steps.Steps.i_enter_a_valid_cridential(String,String,String) in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1597842500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "com.practise.steps.Steps.i_should_be_taken_to_the_Overview_page() in file:/C:/Users/Gawish/eclipse-workspace/practise-cucumber/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": " \t\t\tIn order to do Internet banking\n \t\t\tAs a para bank customer \n \t\t\tI want to Login successfully ",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login2.feature",
+    "tags": []
+  }
+]
